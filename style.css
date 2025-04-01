@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  margin: 50px auto;
+  text-align: center;
+  width: 600px;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: rgb(34, 146, 171);
+}
+
+form label {
+  display: block;
+  text-align: start;
+}
+
+form input {
+  width: 100%;
+  outline: none;
+  padding: 6px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: rgb(34, 146, 171);
+  border: none;
+  padding: 10px 0;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  margin-top: 30px;
+  text-align: start;
+}
+
+table tr th{
+    text-align: start;
+    
+}
+
+table  tr td  {
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+
+table td a{
+    text-decoration: none;
+}
+
+.delete{
+    background: #ff1111;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.alert-success{
+background: rgb(9, 177, 9);
+color: white;
+padding: 10px 0;
+width: 100%;
+margin: 15px 0;
+border-radius: 4px;
+
+}
+
+.alert-error{
+background: #ff1111;
+color: white;
+padding: 10px 0;
+width: 100%;
+margin: 15px 0;
+border-radius: 4px;
+}
+
